@@ -4,7 +4,7 @@ const productSchema = require("./model/allProducts");
 const { default: mongoose } = require("mongoose");
 const checking = require("./model/Checking");
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://food-delivey.vercel.app",
 };
 const getAllProduct = require("./routes/product");
 const fileUpload = require("express-fileupload");
